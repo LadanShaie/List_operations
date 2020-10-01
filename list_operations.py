@@ -117,7 +117,7 @@ def inner_four_end(input_list):
 
     """
 
-    return input_list[-3:-7:-1] 
+    return input_list[-6:-2] 
 
 
 def replace_head(input_list):
