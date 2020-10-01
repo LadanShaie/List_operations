@@ -189,7 +189,8 @@ def delete_third_and_seventh(input_list):
     """
 
     #pass
-    # input_list[0:2] + [3:6]+ [7:]
+    # After line 194 runs, Mi is no longer there so Ti shifts from [6] to [5]
+
     input_list[2:3] = []
     input_list[5:6] = []
     
